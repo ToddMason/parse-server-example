@@ -1,7 +1,7 @@
 
 Parse.Cloud.define('hello', function(req, res) {
   res.success('Hi Todd Mason!');
-}
+});
 
 Parse.Cloud.beforeSave(“TestClass”, function(request, response) {
   if (request.object.get(“phone”) = 0) {
@@ -10,7 +10,7 @@ Parse.Cloud.beforeSave(“TestClass”, function(request, response) {
   else {
     response.success();
   }
-}
+});
 
-);
+
 
