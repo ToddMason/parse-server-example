@@ -4,7 +4,7 @@ Parse.Cloud.define('hello', function(req, res) {
 });
 
 Parse.Cloud.afterSave(“TestClass”, function(request) {   
-   console.log(“We saved some data!”);	
+   
 
 });
 
